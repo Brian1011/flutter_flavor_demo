@@ -51,8 +51,8 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text("App name: ${AppConfig.shared.appName}"),
-            Text("Primary color: ${Theme.of(context).colorScheme.primary}"),
-            Text("Flavor: ${Theme.of(context).colorScheme.surface}"),
+            Text("Primary color: ${AppConfig.shared.baseUrl}"),
+            Text("Flavor: ${AppConfig.shared.flavor}"),
             const Text(
               'You have pushed the button this many times:',
             ),

@@ -5,10 +5,10 @@ import 'main.dart';
 
 main() async {
   await AppConfig.create(
-    appName: "Prod Flavor App",
+    appName: "Dev Flavor App",
     baseUrl: "https://api.dev.com",
     primaryColor: Colors.green,
-    flavor: Flavor.prod,
+    flavor: Flavor.dev,
   );
   runApp(const MyApp());
 }
@@ -21,8 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: AppConfig.shared.appName,
       theme: ThemeData(
-        colorScheme:
-            ColorScheme.fromSeed(seedColor: AppConfig.shared.primaryColor),
+        primarySwatch: AppConfig.shared.primaryColor,
         useMaterial3: true,
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),

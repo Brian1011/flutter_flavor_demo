@@ -1,4 +1,4 @@
-# flutter_flavor
+# Flutter flavors example
 
 # About
 With flutter you can use the same codebase to produce different apps for Android and iOS.

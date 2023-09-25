@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_flavor/app_config.dart';
-
-import 'main.dart';
+import 'package:flutter_flavor/home_page.dart';
 
 main() async {
   await AppConfig.create(

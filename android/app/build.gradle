@@ -70,7 +70,7 @@ android {
             resValue "string", "app_name", "Flutter Prod"
         }
         dev {
-            dimaneion "default"
+            dimension "default"
             applicationIdSuffix ".dev"
             resValue "string", "app_name", "Flutter Demo Dev"
             versionNameSuffix ".dev"

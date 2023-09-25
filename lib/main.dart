@@ -44,7 +44,10 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).primaryColor,
-        title: Text(AppConfig.shared.appName),
+        title: Text(
+          AppConfig.shared.appName,
+          style: const TextStyle(color: Colors.white),
+        ),
       ),
       body: Center(
         child: Column(

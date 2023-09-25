@@ -2,6 +2,7 @@
 
 # About
 With flutter you can use the same codebase to produce different apps for Android and iOS.
+
 But what if you want to produce different apps for different clients? Or different apps for different environments (dev, staging, production, etc.)? This is where flavors come in handy.
 This project illustrates how this is possible.
 

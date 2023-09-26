@@ -48,5 +48,12 @@ fvm flutter run -t lib/main_prod.dart --flavor prod --release
 Create an app_config.dart file in the root of your project. This file will contain the configuration for each flavor.
 Checkout the app_config.dart file in this project to see how it works.
 
+# How to add more flavors
+1. Create a new file in under the lib folder. The file name should be in the format main_<flavor_name>.dart. For example, main_prod.dart.
+2. Copy the contents of main_dev.dart into the newly created file.
+3. Update the app_config.dart file to include the new flavor.
+4. Update build.gradle under "productFlavors" file to include the new flavor.
+5. To have the app icon change based on the flavor, update android/app/src/flavor/res/mipmap* folders with the new icons.
+
 # Credits
 This project was inspired by [this](https://dwirandyh.medium.com/create-build-flavor-in-flutter-application-ios-android-fb35a81a9fac) article.

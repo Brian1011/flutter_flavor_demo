@@ -10,8 +10,10 @@ The same codebase can produce apps with different colors, names and logos. Below
 
 # Demonstration
 ## Dev flavor
+![Dev flavor](https://github.com/Brian1011/flutter_flavor_demo/blob/main/images/dev.png)
 
 ## Prod flavor
+![Prod flavor](https://github.com/Brian1011/flutter_flavor_demo/blob/main/images/prod.png)
 
 # How to use
 This project consist of two flavors (dev and prod).

@@ -3,7 +3,8 @@
 # About
 With flutter you can use the same codebase to produce different apps for Android and iOS.
 
-But what if you want to produce different apps for different clients? Or different apps for different environments (dev, staging, production, etc.)? This is where flavors come in handy.
+But what if you want to produce different apps for different clients? Or different apps for different environments (dev, staging, production, etc.)? 
+This is where flavors come in handy.
 This project illustrates how this is possible.
 
 The same codebase can produce apps with different colors, names and logos. Below is an example of how this project looks like when running the dev and prod flavors.
@@ -16,7 +17,9 @@ The same codebase can produce apps with different colors, names and logos. Below
 ![Prod flavor](https://github.com/Brian1011/flutter_flavor_demo/blob/main/images/prod.png)
 
 ## App name and logo
-The app name and logo changes based on the flavor. Below is a screenshot of the app logo for the dev and prod flavors.
+The app name and logo changes based on the flavor. 
+Below is a screenshot of the app logo for the dev and prod flavors.
+
 ![App logos](https://github.com/Brian1011/flutter_flavor_demo/blob/main/images/app_logos.png)
 
 # How to use
@@ -61,3 +64,4 @@ Checkout the app_config.dart file in this project to see how it works.
 
 # Credits
 This project was inspired by [this](https://dwirandyh.medium.com/create-build-flavor-in-flutter-application-ios-android-fb35a81a9fac) article.
+You can read more about flavors [here](https://flutter.dev/docs/deployment/flavors).

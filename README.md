@@ -63,5 +63,5 @@ Checkout the app_config.dart file in this project to see how it works.
 5. To have the app icon change based on the flavor, update android/app/src/flavor/res/mipmap* folders with the new icons.
 
 # Credits
-This project was inspired by [this](https://dwirandyh.medium.com/create-build-flavor-in-flutter-application-ios-android-fb35a81a9fac) article.
-You can read more about flavors [here](https://flutter.dev/docs/deployment/flavors).
+1. This project was inspired by [this](https://dwirandyh.medium.com/create-build-flavor-in-flutter-application-ios-android-fb35a81a9fac) article.
+2. You can read more about flavors [here](https://flutter.dev/docs/deployment/flavors).

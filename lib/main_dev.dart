@@ -3,7 +3,7 @@ import 'package:flutter_flavor/app_config.dart';
 import 'package:flutter_flavor/home_page.dart';
 
 main() async {
-  await AppConfig.create(
+  AppConfig.create(
     appName: "Dev Flavor App",
     baseUrl: "https://api.dev.com",
     primaryColor: Colors.green,
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         primaryColor: AppConfig.shared.primaryColor,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(),
     );
   }
 }
